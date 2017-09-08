@@ -1,0 +1,9 @@
+syntax_version: "7"
+project_name: tor-browser
+enable_gui: true
+macros:
+  run:
+    usage: run the project in the container
+    actions:
+    - start
+docker_image: hkjn/tor-browser
